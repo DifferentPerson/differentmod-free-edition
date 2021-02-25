@@ -2,9 +2,9 @@ name: CI Builds of DifferentMod Free Edition
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   build:
@@ -26,5 +26,5 @@ jobs:
     - name: Upload built file
       uses: actions/upload-artifact@v2
       with:
-        name: DifferentMod-Free-Edition-Archive
+        name: DifferentMod-Free-Edition-Artifact
         path: ./build/libs/*.jar
