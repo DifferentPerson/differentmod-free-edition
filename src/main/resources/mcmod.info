@@ -1,13 +1,13 @@
 [
   {
-    "modid": "free-edition",
-    "name": "rootNET Free Edition",
-    "description": "",
+    "modid": "differentmod-free-edition",
+    "name": "DifferentMod Free Edition",
+    "description": "The free version of DifferentMod",
     "version": "${version}",
     "mcversion": "${mcversion}",
-    "url": "https://rootnet.dev/",
+    "url": "",
     "updateUrl": "",
-    "authorList": ["iZac#2346"],
+    "authorList": ["ADifferentPerson"],
     "credits": "",
     "logoFile": "",
     "screenshots": [],
